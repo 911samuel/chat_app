@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
         title: const Text('FlutterChat'),
       ),
       body: const Center(
-        child: Text('Logged in!'),
+        child: CircularProgressIndicator(),
       ),
     );
   }

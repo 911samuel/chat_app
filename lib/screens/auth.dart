@@ -33,7 +33,6 @@ class _AuthScreenState extends State<AuthScreen> {
                 email: _enteredEmail,
                 password: _enteredPassword,
               );
-          print(userCredentials);
 }
         } on FirebaseAuthException catch (e) {
         if (e.code == 'email-already in use') {}
